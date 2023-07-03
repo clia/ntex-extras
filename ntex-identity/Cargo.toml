@@ -1,18 +1,18 @@
 [package]
-name = "ntex-identity"
+name = "clia-ntex-identity"
 version = "0.3.0"
 authors = ["ntex contributors <team@ntex.rs>"]
 description = "Identity service for ntex web framework."
 readme = "README.md"
 keywords = ["http", "web", "async"]
 homepage = "https://ntex.rs"
-repository = "https://github.com/ntex-rs/ntex-extras.git"
-documentation = "https://docs.rs/ntex-identity/"
+repository = "https://github.com/clia/ntex-extras.git"
+documentation = "https://docs.rs/clia-ntex-identity/"
 license = "MIT"
 edition = "2018"
 
 [lib]
-name = "ntex_identity"
+name = "clia_ntex_identity"
 path = "src/lib.rs"
 
 [features]

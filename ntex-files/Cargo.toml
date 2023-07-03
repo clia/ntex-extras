@@ -1,20 +1,20 @@
 [package]
-name = "ntex-files"
+name = "clia-ntex-files"
 version = "0.3.0"
 authors = ["ntex contributors <team@ntex.rs>"]
 description = "Static files support for ntex web."
 readme = "README.md"
 keywords = ["ntex", "http", "async", "futures"]
 homepage = "https://ntex.rs"
-repository = "https://github.com/ntex-rs/ntex-extras.git"
-documentation = "https://docs.rs/ntex-files/"
+repository = "https://github.com/clia/ntex-extras.git"
+documentation = "https://docs.rs/clia-ntex-files/"
 categories = ["asynchronous", "web-programming::http-server"]
 license = "MIT"
 edition = "2018"
 workspace = ".."
 
 [lib]
-name = "ntex_files"
+name = "clia_ntex_files"
 path = "src/lib.rs"
 
 [dependencies]

@@ -1,18 +1,18 @@
 [package]
-name = "ntex-multipart"
+name = "clia-ntex-multipart"
 version = "0.3.0"
 authors = ["ntex contributors <team@ntex.rs>"]
 description = "Multipart support for ntex web framework."
 readme = "README.md"
 keywords = ["http", "web", "framework", "async", "ntex"]
 homepage = "https://ntex.rs"
-repository = "https://github.com/ntex-rs/ntex-extras.git"
-documentation = "https://docs.rs/ntex-multipart/"
+repository = "https://github.com/clia/ntex-extras.git"
+documentation = "https://docs.rs/clia-ntex-multipart/"
 license = "MIT"
 edition = "2018"
 
 [lib]
-name = "ntex_multipart"
+name = "clia_ntex_multipart"
 path = "src/lib.rs"
 
 [dependencies]

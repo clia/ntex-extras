@@ -1,18 +1,18 @@
 [package]
-name = "ntex-session"
+name = "clia-ntex-session"
 version = "0.3.0"
 authors = ["ntex contributors <team@ntex.rs>"]
 description = "Session for ntex web framework."
 readme = "README.md"
 keywords = ["http", "web", "framework", "async", "futures"]
 homepage = "https://ntex.rs"
-repository = "https://github.com/ntex-rs/ntex-extras.git"
-documentation = "https://docs.rs/ntex-session/"
+repository = "https://github.com/clia/ntex-extras.git"
+documentation = "https://docs.rs/clia-ntex-session/"
 license = "MIT"
 edition = "2018"
 
 [lib]
-name = "ntex_session"
+name = "clia_ntex_session"
 path = "src/lib.rs"
 
 [features]
